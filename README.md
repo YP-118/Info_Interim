@@ -15,7 +15,7 @@ This project combines gene expression data, spatial data, and machine learning o
 
 ## Repository Structure
 
- ''' 
+```
 ├── Code/
 │   ├── TCGA_preprocessing_SHAP.ipynb  # Preprocessing and SHAP Analysis Code
 │   ├── Volcano_Plot.ipynb             # Notebook for Volcano Plot Generation
@@ -28,7 +28,7 @@ This project combines gene expression data, spatial data, and machine learning o
 │   ├── SHAP_XGBoost.png               # SHAP Beeswarm Plot (XGBoost)
 │   ├── SHAP_log.png                   # SHAP Beeswarm Plot (Logistic Regression)
 └── README.md                          # Root README file (this document)
- ''' 
+```
 
 
 ## Setup Instructions
