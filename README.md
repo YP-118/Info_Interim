@@ -15,26 +15,29 @@ This project combines gene expression data, spatial data, and machine learning o
 
 ## Repository Structure
 
-{
-  RepositoryStructure {
-    Code {
-      File: "TCGA_preprocessing_SHAP.ipynb"  # Preprocessing and SHAP Analysis Code
-      File: "Volcano_Plot.ipynb"             # Notebook for Volcano Plot Generation
-      File: "Map.ipynb"                      # Notebook for GeoJSON Map Creation
-    }
-    Data {
-    }
-    Visualization {
-      File: "Volcano_Plot.png"               # Static Volcano Plot
-      File: "Map.png"                        # Biomarker GeoJSON Map
-      File: "SHAP_XGBoost.png"               # SHAP Beeswarm Plot (XGBoost)
-      File: "SHAP_log.png"                   # SHAP Beeswarm Plot (Logistic Regression)
-    }
-    RootFiles {
-      File: "README.md"                      # Root README file (this document)
-    }
-  }
-}
+├── Code/
+
+│   ├── TCGA_preprocessing_SHAP.ipynb  # Preprocessing and SHAP Analysis Code
+
+│   ├── Volcano_Plot.ipynb             # Notebook for Volcano Plot Generation
+
+│   ├── Map.ipynb                      # Notebook for GeoJSON Map Creation
+
+├── Data/                              # Data files used for analysis
+
+│   ├── ...
+
+├── Visualization/
+
+│   ├── Volcano_Plot.png               # Static Volcano Plot
+
+│   ├── Map.png                        # Biomarker GeoJSON Map
+
+│   ├── SHAP_XGBoost.png               # SHAP Beeswarm Plot (XGBoost)
+
+│   ├── SHAP_log.png                   # SHAP Beeswarm Plot (Logistic Regression)
+
+└── README.md                          # Root README file (this document)
 
 
 ## Setup Instructions
